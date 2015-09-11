@@ -1,13 +1,13 @@
 # pair
-(c) 2015 Sean Patrick Burke, on behalf of the Journal of the Patent & Trademark Office Society
+(c) 2015 Sean Patrick Burke
 
 Non-IFW PAIR data tabs. Includes basic application information. Not as complete as published application data.
 
 pf.pl - A perl script for pulling PAIR data
 
-usage: pf.pl [<Application Number>] [CSV]
+usage: pf.pl [\<Application Number\>] [CSV]
 
-If no arguments are provided, the script will crawl ReedTech's public data. As of September 2015, there are approximately 5.2 million records. If you don't feel like generating your own db, feel free to download the quarterly dataset posted in the /data folder.'
+If no arguments are provided, the script will crawl ReedTech's public data. As of September 2015, there are approximately 5.2 million records. If you don't feel like generating your own db, feel free to download the quarterly dataset posted here:.
 
 You will need the following components to run this script: DBI:SQLite 
 
